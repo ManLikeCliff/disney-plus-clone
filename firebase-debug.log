@@ -1,0 +1,112 @@
+[debug] [2021-05-19T16:28:39.715Z] ----------------------------------------------------------------------
+[debug] [2021-05-19T16:28:39.717Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ManLikeCliff\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-19T16:28:39.718Z] CLI Version:   9.11.0
+[debug] [2021-05-19T16:28:39.718Z] Platform:      win32
+[debug] [2021-05-19T16:28:39.718Z] Node Version:  v14.15.1
+[debug] [2021-05-19T16:28:39.719Z] Time:          Wed May 19 2021 17:28:39 GMT+0100 (West Africa Standard Time)
+[debug] [2021-05-19T16:28:39.719Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-19T16:28:39.735Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-19T16:28:39.735Z] > authorizing via signed-in user (klifiam@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ManLikeCliff\Documents\Disney Plus Clone\disney-plus-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-05-19T16:59:18.238Z] ----------------------------------------------------------------------
+[debug] [2021-05-19T16:59:18.240Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ManLikeCliff\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-19T16:59:18.241Z] CLI Version:   9.11.0
+[debug] [2021-05-19T16:59:18.241Z] Platform:      win32
+[debug] [2021-05-19T16:59:18.241Z] Node Version:  v14.15.1
+[debug] [2021-05-19T16:59:18.242Z] Time:          Wed May 19 2021 17:59:18 GMT+0100 (West Africa Standard Time)
+[debug] [2021-05-19T16:59:18.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-19T16:59:18.258Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-19T16:59:18.259Z] > authorizing via signed-in user (klifiam@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ManLikeCliff\Documents\Disney Plus Clone\disney-plus-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-05-19T17:00:27.520Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-19T17:00:27.521Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-19T17:00:28.062Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 19 May 2021 17:00:28 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T17:00:28.159Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"disney-plus-clone-bycliff","name":"disney-plus-clone-bycliff"}
+[debug] [2021-05-19T17:00:29.978Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 May 2021 17:00:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1307","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T17:00:29.982Z] > refreshing access token with scopes: []
+[debug] [2021-05-19T17:00:29.982Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-19T17:00:30.433Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 19 May 2021 17:00:30 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T17:00:30.514Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 [none]
+[debug] [2021-05-19T17:00:32.128Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 200
+[debug] [2021-05-19T17:00:32.129Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 {"name":"operations/cp.7891738956843520964"}
+[debug] [2021-05-19T17:00:32.640Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-05-19T17:00:32.641Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 [none]
+[debug] [2021-05-19T17:00:34.260Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 200
+[debug] [2021-05-19T17:00:34.260Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 {"name":"operations/cp.7891738956843520964"}
+[debug] [2021-05-19T17:00:35.274Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-05-19T17:00:35.277Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 [none]
+[debug] [2021-05-19T17:00:37.059Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 200
+[debug] [2021-05-19T17:00:37.059Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7891738956843520964 {"name":"operations/cp.7891738956843520964","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"447283109154","projectId":"disney-plus-clone-bycliff","lifecycleState":"ACTIVE","name":"disney-plus-clone-bycliff","createTime":"2021-05-19T17:00:29.886Z"}}
+[debug] [2021-05-19T17:00:37.077Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-19T17:00:37.077Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-19T17:00:37.497Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 19 May 2021 17:00:37 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T17:00:37.576Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/disney-plus-clone-bycliff:addFirebase  
+ 
+[debug] [2021-05-19T17:00:40.868Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 May 2021 17:00:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T17:00:40.869Z] > refreshing access token with scopes: []
+[debug] [2021-05-19T17:00:40.869Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-19T17:00:41.630Z] <<< HTTP RESPONSE 200 {"date":"Wed, 19 May 2021 17:00:41 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T17:00:41.698Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 [none]
+[debug] [2021-05-19T17:00:42.740Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 200
+[debug] [2021-05-19T17:00:42.740Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 {"name":"operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2"}
+[debug] [2021-05-19T17:00:43.252Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-05-19T17:00:43.253Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 [none]
+[debug] [2021-05-19T17:00:44.265Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 200
+[debug] [2021-05-19T17:00:44.265Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 {"name":"operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2"}
+[debug] [2021-05-19T17:00:45.280Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-05-19T17:00:45.280Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 [none]
+[debug] [2021-05-19T17:00:46.058Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 200
+[debug] [2021-05-19T17:00:46.058Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 {"name":"operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2"}
+[debug] [2021-05-19T17:00:48.065Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-05-19T17:00:48.066Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YjhjMjI5OTgtZjIwMi00OTFmLWE2OWEtYjVlMWExODE5NTM2 [none]
+[debug] Task index 0 failed: timed out after 30000ms.
+[debug] [2021-05-19T17:01:10.882Z] Task index 0 failed: timed out after 30000ms.
+[debug] [2021-05-19T17:01:11.446Z] FirebaseError: Task index 0 failed: timed out after 30000ms.
+    at Timeout.<anonymous> (C:\Users\ManLikeCliff\AppData\Roaming\npm\node_modules\firebase-tools\lib\throttler\throttler.js:170:24)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
